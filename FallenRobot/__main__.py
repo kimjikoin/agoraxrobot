@@ -351,8 +351,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
             f"\n*➻ 🦋 ᴍʏ ʙɪʀᴛʜ : »* {uptime}"
-            f"\n*➻ 🦋 ᴍʏ ғᴀɴs : »* 60{sql.num_users()}"
-            f"\n*➻ 🦋 ᴍʏ ᴛᴇʀʀɪᴛᴏʀɪᴇs : »* 10{sql.num_chats()}"
+            f"\n*➻ 🦋 ᴍʏ ғᴀɴs : »* 600{sql.num_users()}"
+            f"\n*➻ 🦋 ᴍʏ ᴛᴇʀʀɪᴛᴏʀɪᴇs : »* 100{sql.num_chats()}"
             "\n────────────────────"
             "\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
             "\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
@@ -366,23 +366,23 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🦋 sᴜᴩᴩᴏʀᴛ 🦋", callback_data="fallen_support"
+                            text="🏪 sᴜᴩᴩᴏʀᴛ 🏪", callback_data="fallen_support"
                         ),
                         InlineKeyboardButton(
-                            text="🦋 ᴄᴏᴍᴍᴀɴᴅs 🦋", callback_data="help_back"
+                            text="🖲 ᴄᴏᴍᴍᴀɴᴅs 🖲", callback_data="help_back"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🦋 ᴍʏ ʜᴜʙʙʏ 🦋", url=f"https://t.me/mr_agora"
+                            text="🤵🏻‍♂ ᴏᴡɴᴇʀ 🤵🏻‍♂", url=f"https://t.me/mr_agora"
                         ),
                         InlineKeyboardButton(
-                            text="🦋 ᴀʙᴏᴜᴛ ᴍᴇʜ 🦋",
+                            text="🤖 ᴀʙᴏᴜᴛ 🤖",
                             callback_data="source_",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="🦋 ʙᴀᴄᴋ 🦋", callback_data="fallen_back"),
+                        InlineKeyboardButton(text="↩️ ʙᴀᴄᴋ ↪️", callback_data="fallen_back"),
                     ],
                 ]
             ),
@@ -412,7 +412,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="🦋 ʙᴀᴄᴋ 🦋", callback_data="fallen_"),
+                        InlineKeyboardButton(text="↪️ ʙᴀᴄᴋ ↪️", callback_data="fallen_"),
                     ],
                 ]
             ),
